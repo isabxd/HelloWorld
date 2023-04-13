@@ -1,10 +1,12 @@
 import React from 'react';
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Button } from "react-native";
 
 const Formacao = () => {
     return (
         <View>
             <Text> Formação </Text>
+            <Button title="Voltar" onPress={() => navigation.navigate('Formacao')} />
+
         </View>
     );
 }
